@@ -3,7 +3,7 @@
     var product_id = $('#product_id').val();
     // alert(product_id);
         setTimeout(function () {
-    var data = 'id='+ product_id + '&quantity=2'
+    var data = 'id='+ product_id + '&quantity=1'
 	    $.ajax({
 	      type: 'POST',
               url: '/cart/add.js',
